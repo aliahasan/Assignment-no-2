@@ -203,7 +203,7 @@ nav {
     align-items: center;
     justify-content: center;
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.432)), url(./);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.432)), url(/photos/images/Rectangle\ 7.png);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
