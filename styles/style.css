@@ -1,0 +1,442 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*<----------------------- NAVAR SECTION STYLE FROM HERE ----------------->*/
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.logo-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+
+#G {
+    color: rgb(201, 90, 108);
+}
+
+.logo img {
+    width: 86.041px;
+    height: 40px;
+}
+
+nav {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 240px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+.icons {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 260px;
+    height: 56px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.fa-tiktok,
+.fa-youtube {
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+}
+
+/* <-----------------Banner section  style from  here---------------> */
+
+.banner-section {
+    margin: 50px 240px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-1 {
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.title-2 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5.9rem;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.banner-description {
+    color: #534C64;
+    font-size: 1.12rem;
+    font-weight: 500;
+}
+
+.button {
+    margin-top: 40px;
+    display: flex;
+    gap: 24px;
+}
+
+.primary-btn {
+    border: none;
+    color: white;
+    padding: 22px 40px;
+    background-color: #ff42a5;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 48px;
+}
+
+.primary-btn:hover {
+    background-color: rgb(161, 202, 161);
+    color: black;
+    transition: ease-in 1s;
+    cursor: pointer;
+}
+
+.second-btn {
+    border: none;
+    color: white;
+    padding: 22px 40px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 48px;
+    background-color: #4EC5F7;
+}
+
+.second-btn:hover {
+    background-color: white;
+    color: black;
+    transition: ease-in 1s;
+    cursor: pointer;
+}
+
+/*<--------- online and funny video games  style start here --------->*/
+
+.cards-section-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#span-2 {
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+#span-3 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.games-card {
+    padding-bottom: 20px;
+    display: flex;
+    margin: 0 240px;
+    display: flex;
+    gap: 20px;
+}
+
+.card-description,
+.image-description {
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+#card-three {
+    width: 342px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.432)), url(./);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#play-icon {
+    font-size: 60px;
+}
+
+#watch-now {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgb(230, 167, 177);
+}
+
+/* <-----------------gamers section style from here ----------------->*/
+
+.gamers-container {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
+.gamers-section {
+    margin: 0 240px;
+    display: flex;
+    gap: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gamers-image img {
+    margin: 55px 0px;
+}
+
+.gamers-details {
+    text-align: right;
+}
+
+.gamers-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamers-description {
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.text {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.text-2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 10px;
+}
+
+/*<------------ gaming event style from here ------------>*/
+
+.gaming-event {
+    margin: 100px 240px;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}
+
+.event-details {
+    width: 50%;
+
+}
+
+.event-photo {
+    width: 50%;
+    position: relative;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.badge-image {
+    position: absolute;
+    top: 57%;
+    right: 75%;
+    width: 50%;
+}
+
+.event-description {
+    width: 100%;
+    color: #534C64;
+    text-align: right;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.event-title {
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: right;
+}
+
+#span-1 {
+    text-align: right;
+    font-size: 2.8rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*<---------------------- gaming category style from here --------------------------->*/
+.games-category {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
+.boxes1 {
+    margin: 0px 240px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 100px 0px;
+}
+
+.boxes-details {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 50px;
+    gap: 16px;
+    padding: 10px 20px;
+    background: #FFF;
+}
+
+.tiny-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.game-type {
+    color: #0B0223;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.boxes-details:hover {
+    border: 2px solid blue;
+    border-radius: 50px;
+    background-color: rgb(253, 253, 253);
+    cursor: pointer;
+}
+
+/* footer-section */
+
+footer {
+    background-color: rgb(8, 8, 22);
+    color: white;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 10px;
+}
+
+.footer-logo img {
+    width: 86px;
+    height: 40px;
+}
+
+.footer-logo-title {
+    color: white;
+}
+
+.footer-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 0px;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 40px;
+    padding-top: 30px;
+    color: white;
+}
+
+.footer-icons a {
+    color: white;
+}
+
+.footer-icons a:hover {
+    cursor: pointer;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding-bottom: 50px;
+    color: rgba(255, 255, 255, 0.60)
+}
+
+.footer-policy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.60)
+}
